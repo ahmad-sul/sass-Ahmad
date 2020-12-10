@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  font-size: 13px;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.logo a {
+  display: block;
+  height: 25px;
+}
+
+svg.icon {
+  display: block;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2.3;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+svg {
+  display: block;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2.3;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+footer {
+  background: #010101;
+  padding: 40px 0;
+  position: relative;
+}
+
+.copy {
+  color: #9b9dad;
+}
+
+.slogan {
+  color: #9b9dad;
+}
+
+.width-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+nav {
+  margin: 0 0 8px;
+}
+
+h4 {
+  color: #fff;
+  margin-right: 16px;
+  display: inline;
+  text-transform: none;
+  font-size: inherit;
+}
+
+a {
+  display: block;
+  color: #9b9dad;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+
+  a {
+    display: inline;
+  }
+
+  .width-wrapper {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2rem;
+  }
+}
